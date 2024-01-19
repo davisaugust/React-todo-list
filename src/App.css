@@ -3,18 +3,19 @@ body{
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background-image: url();
-  background-position: centar;
+  background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
+  background-position: fixed;
+  object-fit: center;
   background-size: cover;
 }
 .app{
   max-width: 600px;
-  background-color: #ccc;
   margin: 0 auto 300px;
   border-radius: 10px;
   padding: 15px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 h1{
@@ -45,11 +46,11 @@ button:hover{
   margin-bottom: 20px;
 
   padding-bottom: 20px;
-  border-bottom: 1px solid #555;
 }
 
 .todo{
-  background-color: white;
+  background-color: #023e8a;
+  color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 10px;
   margin-bottom: 10px;
@@ -83,11 +84,13 @@ input, select{
   padding-bottom: 20px;
 
 }
+
 .filter-options{
   display: flex;
   justify-content: space-between;
   gap: 3rem;
 }
+
 .filter-options div{
   flex: 1 1 0;
 }
