@@ -2,11 +2,11 @@ body{
   font-family: arial;
   background-color: #f4f4f4;
   padding: 30px;
-  color: #333;
+  color: #b9e8ea;
   background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
-  background-position: fixed;
-  object-fit: center;
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .app{
   max-width: 600px;
@@ -14,7 +14,7 @@ body{
   border-radius: 10px;
   padding: 15px;
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
@@ -50,6 +50,7 @@ button:hover{
 
 .todo{
   background-color: #023e8a;
+  
   color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 10px;
