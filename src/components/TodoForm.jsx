@@ -39,17 +39,6 @@ const TodoForm = ( {addTodo} ) => {
           <option value="Estudos">Estudos</option>
         </select>
 
-        <select
-          value={priority}
-          name=""
-          id=""
-          onChange={(e) => setPriority(e.target.value)}
-        >
-          <option value="">Selecione o nível de prioridade</option>
-          <option value="urgency">Urgente</option>
-          <option value="noturgent">Não urgente</option>
-          <option value="Tranquilo">Tranquilo</option>
-        </select>
         <button type=
         "submit">Criar tarefa</button>
       </form>
