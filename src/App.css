@@ -14,6 +14,7 @@ body{
   margin: 0 auto 300px;
   border-radius: 10px;
   padding: 15px;
+  background-color: rgba(0, 99, 134, 0.199);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(15px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -62,7 +63,7 @@ button:hover{
 
 .todo{
   background-color: rgba(33, 26, 35, 0.856);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   color: white;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
