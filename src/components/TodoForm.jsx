@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 
-const TodoForm = ( {addTodo} ) => {
+const TodoForm = ({ addTodo }) => {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState("");
   const [priority, setPriority] = useState("");
@@ -29,8 +29,6 @@ const TodoForm = ( {addTodo} ) => {
         />
         <select
           value={category}
-          name=""
-          id=""
           onChange={(e) => setCategory(e.target.value)}
         >
           <option value="">Selecione uma categoria</option>
@@ -38,9 +36,17 @@ const TodoForm = ( {addTodo} ) => {
           <option value="Pessoal">Pessoal</option>
           <option value="Estudos">Estudos</option>
         </select>
+        <select
+          value={priority}
+          onChange={(e) => setPriority(e.target.value)}
+        >
+          <option value="">Selecione a prioridade</option>
+          <option value="Alta">Alta</option>
+          <option value="Média">Média</option>
+          <option value="Baixa">Baixa</option>
+        </select>
 
-        <button type=
-        "submit">Criar tarefa</button>
+        <button type="submit">Criar tarefa</button>
       </form>
     </div>
   );
