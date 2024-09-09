@@ -1,4 +1,5 @@
 # A todo list using Javascript and React library.
+- Você pode verificar o resultado final através do link:https://davisaugust.github.io/React-todo-list/
 
 Currently, two official plugins are available:
 
