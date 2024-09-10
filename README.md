@@ -10,6 +10,6 @@
 - Concluir ou deletar tarefas existentes.
 - Filtragem das tarefas por critérios.
 
-- Você pode verificar o resultado final através do link:https://davisaugust.github.io/React-todo-list/
+- Você pode verificar o resultado final através do link: https://davisaugust.github.io/React-todo-list/
 
 Veja no [LinkedIn](https://www.linkedin.com/in/davi-augusto-161800267/)
